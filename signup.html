@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form name="Loginform" action="" class="loginform" onsubmit=" false">
+            <h3>Create Account</h3>
+            <div>
+                <input type="text" placeholder="User id" name="username">
+                <div id="user_error"></div>
+            </div>
+            <div>
+                <input type="password" placeholder="Createpassword">
+                <div id="pass_error"></div>
+            </div>
+            <div>
+                <input type="password" placeholder="Confirmpassword">
+                <div id="Cpass_error"></div>
+            </div>
+            <button type="submit" onclick="validate()" class="btn btn-primary">Submit</button><br><br>
+        </form>
+    </div>
+    <script src="./signup.js"></script>
+</body>
+
+</html>

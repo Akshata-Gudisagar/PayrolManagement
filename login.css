@@ -1,0 +1,54 @@
+.form-parent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  /* display: none; */
+}
+#password{
+  width: 250px;
+  height: 35px;
+}
+#email{
+  width: 250px;
+  height: 35px;
+}
+#email-error{
+  height: 25px;
+  font-size: 12px;
+  /* margin-right: 70px; */
+  color: red;
+  font-weight: 600;
+}
+#pass-error{
+  height: 25px;
+  font-size: 12px;
+  /* margin-right: 130px; */
+  color: red;
+  font-weight: 600;
+}
+.parent-img{
+  /* width: 100%; */
+  border: 1px solid red;
+  width: 650px;
+  height: 100vh;
+}
+.parent{
+ 
+  background-color: rgb(181, 162, 197);
+  width: 25%;
+  height: 30%;
+  float: right;
+  margin-top: 12%;
+  margin-right: 35%;
+  border-radius: 5px;
+  /* box-shadow: 3px 3px 6px  rgba(128, 128, 128, 0.781),-3px -3px 6px rgba(128, 128, 128, 0.548); */
+}
+body{
+ background: url('./laptop.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
